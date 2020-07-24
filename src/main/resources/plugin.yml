@@ -1,0 +1,16 @@
+name: WatchdogTrigger
+main: antonppds.watchdogtrigger.Loader
+version: 1.0.0
+api: 1.0.0
+load: POSTWORLD
+author: AntonPPDS
+description: Do long thread sleep to trigger Watchdog
+
+permissions:
+  watchdogtrigger:
+    default: op
+
+commands:
+  watchdogtrigger:
+    permission: "watchdogtrigger"
+    aliases: ["wt"]
